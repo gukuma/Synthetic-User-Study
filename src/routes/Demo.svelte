@@ -88,7 +88,7 @@ function init(el){
 	
 	<div class="h-[700px]  w-full  bg-white bg-opacity-80	rounded-[1rem]  p-4 overflow-y-auto flex flex-col gap-4">
 		<div class="flex-reversed flex-col gap-2 opacity-100">
-			<ChatMessage type="assistant" message="Hi, I'm Natali" />
+			<ChatMessage type="assistant" message="Hi, I'm Natalie" />
 
 				{#each chatMessages as message}
 				<ChatMessage type={message.role} message={message.content} />

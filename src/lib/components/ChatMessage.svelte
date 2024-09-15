@@ -30,7 +30,7 @@
 		{#if type === 'user'}
 		Designer: {@html message}
 	  {:else}
-		Natali: {@html message}
+		Natalie: {@html message}
 	  {/if}
 	</div>
 	  </div>
