@@ -9,8 +9,6 @@ This project explores the effectiveness of Synthetic Users—AI-driven, persona-
 ### Key Components:
 1. **Persona-based Chatbot**: Utilizes GPT-3 language models to simulate conversations with a "Synthetic User."
 2. **Design Task Framework**: Facilitates experiments where designers interact with either a traditional persona summary or the Synthetic User for product ideation.
-3. **Analysis Tools**: Includes surveys and linguistic tools (PPS, LIWC) to evaluate empathy, understanding, and ideation outcomes.
-
 ---
 
 ## Getting Started
@@ -64,26 +62,6 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ---
 
-## Building for Production
-
-To build the project for production:
-
-```bash
-npm run build
-```
-
-You can preview the production build with:
-
-```bash
-npm run preview
-```
-
-### Deploying
-
-Refer to the [SvelteKit adapter documentation](https://kit.svelte.dev/docs/adapters) for deployment options tailored to your hosting environment.
-
----
-
 ## Study Framework
 
 The Synthetic User study aims to explore three research questions:
@@ -102,5 +80,3 @@ The Synthetic User study aims to explore three research questions:
 - **Persona Perception Scale (PPS)**: Evaluates empathy and understanding toward the Synthetic User.
 
 ---
-
-For more detailed information on the study setup, methodology, and findings, refer to the `docs/` directory.
